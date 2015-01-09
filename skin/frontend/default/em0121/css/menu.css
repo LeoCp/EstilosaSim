@@ -1,3 +1,4 @@
+
 .em_nav{
 	font:13px/1.35 Arial, Helvetica, sans-serif;
 }
@@ -307,7 +308,7 @@ border-color: #ff8401 transparent  transparent  transparent ;
 }
 .navbar-fixed-top .inner-header-middle{ margin:0 auto; text-align:center; }
 .navbar-fixed-top .inner-header-middle a.logo{ width:15%; vertical-align:top;}
-.navbar-fixed-top .inner-header-middle .header-bottom-right{ padding-bottom:0;}
+.navbar-fixed-top .inner-header-middle .header-bottom-right{ padding-bottom:0; padding-top: 54px;}
 .navbar-fixed-top .inner-header-middle .dropdown-cart{ margin-bottom:0; float:right;}
 .navbar-fixed-top .inner-header-middle .dropdown-cart-content{ padding-top:5px; padding-bottom:5px;}
 .navbar-fixed-top .block-cart-top .cart-popup{top:44px;}

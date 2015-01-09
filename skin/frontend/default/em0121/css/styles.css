@@ -26,6 +26,10 @@
 /* Reset ================================================================================= */
 * { margin:0; padding:0; }
 
+.header-top {
+height: 39px;
+}
+
 li.cp {
 padding: 5px;
 }
@@ -2541,7 +2545,7 @@ text-align: left;}
 	margin:3px 0 2px; 
 	border:1px solid;
     right: 230px;
-    top: 120px;
+    top: 83px;
     width: 602px;
 }
 

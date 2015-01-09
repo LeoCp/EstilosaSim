@@ -27,8 +27,9 @@
  * @var Mage_Page_Block_Html_Header $this
  */
 ?>
+
 <div class="header-container">
-	<div class="header-top">
+    <div class="header-top">
         <div class="container">
         	<div class="row inner_top">
 	        	<div class="col-sm-24">
@@ -40,14 +41,19 @@
                                 <li><span class="icon my_wishlist"></span><a href="<?php echo $this->getBaseUrl()?>wishlist/" title="<?php echo $this->__('My Wishlist') ?>" data-hover="<?php echo $this->__('My Wishlist') ?>"><?php echo $this->__('My Wishlist') ?></a></li>
                                 <li><span class="icon log_in"></span><a href="<?php echo $this->getBaseUrl()?>customer/account/login/" title="<?php echo $this->__('Log In') ?>" data-hover="<?php echo $this->__('Log In') ?>"><?php echo $this->__('Log In') ?></a></li>
                                 <li><span class="icon register"></span><a href="<?php echo $this->getBaseUrl()?>customer/account/create/" title="<?php echo $this->__('Register') ?>" data-hover="<?php echo $this->__('Register') ?>"><?php echo $this->__('Register') ?></a></li>
+           
                             </ul>
+
                         <?php else:?>
                             <ul class="links">
                                 <li><span class="icon my_account"></span><a href="<?php echo $this->getBaseUrl()?>customer/account/" title="<?php echo $this->__('My Account') ?>" data-hover="<?php echo $this->__('My Account') ?>"><?php echo $this->__('My Account') ?></a></li>
                                 <li><span class="icon my_wishlist"></span><a href="<?php echo $this->getBaseUrl()?>wishlist/" title="<?php echo $this->__('My Wishlist') ?>" data-hover="<?php echo $this->__('My Wishlist') ?>"><?php echo $this->__('My Wishlist') ?></a></li>
                                 <li><span class="icon log_in"></span><a href="<?php echo $this->getBaseUrl()?>customer/account/logout" title="<?php echo $this->__('Log Out') ?>" data-hover="<?php echo $this->__('Log Out') ?>"><?php echo $this->__('Log Out') ?></a></li>                                
                             </ul>
+
                         <?php endif;?>
+
+
 	            	</div>
 	            	<div class="header-top-right">
 					<!--	
@@ -55,10 +61,21 @@
 	    	            <?php echo $this->getChildHtml('currency') ?>
                         <?php echo $this->getChildHtml('store_switcher') ?>
                         <?php echo $this->getChildHtml('topSearch') ?>
-	            	</div>
+
+       	</div>
+<div class="social">                        
+    <ul class="social1">
+        <li class="cp"><a href="#" class="s1"><img src="<?php echo $this->getSkinUrl('images/face.png')?>" alt=""></a></li>
+        <li class="cp"><a href="#" class="s1"><img src="<?php echo $this->getSkinUrl('images/twit.png')?>" alt=""></a></li>
+        <li class="cp"><a href="#" class="s1"><img src="<?php echo $this->getSkinUrl('images/insta.png')?>" alt=""></a></li>
+      </ul>
+</div>
 	          	</div>
+
 	         </div>
+
         </div>
+
 	</div>
    
 
@@ -76,18 +93,26 @@
 								<div class="header-bottom-right">
 									<?php echo $this->getChildHtml('topMenu') ?>
 									<?php echo $this->getChildHtml('cart_sidebar') ?>
+                                    
                                     </div>
                         
 								</div>
 							</div>
         	            </div>
+                        
                       <div class="bc">
                           <ul class="bc1">
                               <li><a href="" class="frete1"><img src="<?php echo $this->getSkinUrl('images/fret.png')?>" alt=""></a></li>
                               <li><a href="" class="frete1"><img src="<?php echo $this->getSkinUrl('images/5porc.png')?>" alt=""></a></li>
                               <li><a href="" class="frete1"><img src="<?php echo $this->getSkinUrl('images/page.png')?>" alt=""></a></li>
+                              <li><div id="leo"><a href="" class="f4"><img src="<?php echo $this->getSkinUrl('images/leo.png')?>" alt=""></div></li>
                           </ul>
+                        
+                            
+
                       </div>
+
+                    
              
                     </div>
                 </div>

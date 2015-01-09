@@ -26,6 +26,20 @@
 /* Reset ================================================================================= */
 * { margin:0; padding:0; }
 
+li.cp {
+padding: 5px;
+}
+
+ul.social1 {
+margin-left: 1050px;
+display: -webkit-box;
+padding-top: 2px;
+}
+
+ul.l {
+display: -webkit-box;
+}
+
 ul.bc1 {
 display: inline-flex;
 }
@@ -47,7 +61,10 @@ li.menu-item-text.menu-item-depth-0{
     top: 10px;
 }
 div#link-top-cart {
-bottom: 115px;
+bottom: 125px;
+}
+div#leo {
+margin-left: 72px;
 }
 .header-bottom {
 height: 180px;
@@ -2312,7 +2329,7 @@ text-align: left;}
 
 
 /*icon header*/
-.icon.cart { width:35px; height:31px; background-position:0px -85px }
+
 
 /*=====================EM0121 - Store Layout ===================*/
 

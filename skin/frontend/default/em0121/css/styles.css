@@ -25,9 +25,7 @@
 
 /* Reset ================================================================================= */
 * { margin:0; padding:0; }
-.dropdown-cart-content-top {
-left: 15px;
-}
+
 
 .header-top {
 height: 39px;
@@ -43,6 +41,7 @@ margin-left: 1050px;
 display: -webkit-box;
 padding-top: 2px;
 }
+
 
 ul.l {
 display: -webkit-box;
@@ -72,7 +71,7 @@ div#link-top-cart {
 bottom: 125px;
 }
 div#leo {
-margin-left: 60px;
+margin-left: 71px;
 }
 .header-bottom {
 height: 180px;
@@ -3426,7 +3425,7 @@ and (max-device-width: 480px) {
 	select:focus { background-color:#ffffff}
 	.products-grid li.item .bkg-hover{ display:none}
 	.logo{ margin-bottom:15px;}
-	.dropdown-cart-content{padding:0 8px;}
+	.dropdown-cart-content{padding:0 20px;}
 	.inner-header-middle{ text-align:center;}
 	.block-cart-top .block-title a{ font-size:90%;}
 	.block-cart-top .cart-popup{ top:40px}

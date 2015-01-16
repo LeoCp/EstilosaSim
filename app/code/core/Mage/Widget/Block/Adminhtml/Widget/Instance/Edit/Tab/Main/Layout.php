@@ -299,15 +299,7 @@ class Mage_Widget_Block_Adminhtml_Widget_Instance_Edit_Tab_Main_Layout
         $pageGroups = array();
         if ($widgetInstance->getPageGroups()) {
             foreach ($widgetInstance->getPageGroups() as $pageGroup) {
-                $pageGroups[] = array(
-                    'page_id' => $pageGroup['page_id'],
-                    'group' => $pageGroup['page_group'],
-                    'block' => $pageGroup['block_reference'],
-                    'for_value'   => $pageGroup['page_for'],
-                    'layout_handle' => $pageGroup['layout_handle'],
-                    $pageGroup['page_group'].'_entities' => $pageGroup['entities'],
-                    'template' => $pageGroup['page_template']
-                );
+               
             }
         }
         return $pageGroups;

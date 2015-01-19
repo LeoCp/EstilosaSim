@@ -26,20 +26,17 @@
 ?>
 <div class="block block-subscribe">
     <div class="block-title">
-        <strong><span><?php echo $this->__('Newsletter') ?></span></strong>
+        
     </div>
-    <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
-        <div class="block-content">
-			<div class="form-subscribe-content">
-				<div class="input-box">
-				   <input type="text" name="email" id="newsletter" title="<?php echo $this->__('Sign Up for Our Newsletter to receive latest news and events.') ?>" class="input-text required-entry validate-email" />
-				</div>
-				<div class="actions">
-					<button type="submit" title="<?php echo $this->__('Go') ?>" class="button"><span><span><?php echo $this->__('Go') ?></span></span></button>
-				</div>
-			</div>
-        </div>
-    </form>
+
+   <span class="novidades"> <img src="<?php echo $this->getSkinUrl('images/novidades.png')?>" alt=""> </span>
+   <span class="est"> <img src="<?php echo $this->getSkinUrl('images/est.png')?>" alt=""> </span>
+   <span class="est1"> <img src="<?php echo $this->getSkinUrl('images/est1.png')?>" alt=""> </span>
+   <span class="est2"> <img src="<?php echo $this->getSkinUrl('images/est2.png')?>" alt=""> </span>
+   <span class="promocao"> <img src="<?php echo $this->getSkinUrl('images/promocao.png')?>" alt=""> </span>
+    <span class="newsll"> <img src="<?php echo $this->getSkinUrl('images/newsll.png')?>" alt=""> </span>
+    <span class="inputt"><input type="inputt-text"></span>
+    <span class="button-1"> <img src="<?php echo $this->getSkinUrl('images/button-1.png')?>" alt=""> </span>
     <script type="text/javascript">
     //<![CDATA[
         var searchForm = new Varien.searchForm('newsletter-validate-detail', 'newsletter', '<?php echo $this->__('Sign Up for Our Newsletter to receive latest news and events.') ?>'); 

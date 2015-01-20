@@ -37,7 +37,9 @@ span.novidades {
 }
 span.est{
     position: absolute;
-    left: -73px;
+ left: 12px;
+
+
     top: -76px;
 }
 span.est1{
@@ -78,6 +80,17 @@ span.button-1 {
 position: absolute;
 top: 26px;
 left: 1024px;
+}
+span.est3{
+    position: absolute;
+    top: 55px;
+    left: 1207px;
+}
+
+span.rede{
+    position: absolute;
+    left: 12px;
+top: -76px;
 }
 
 .header-top {

@@ -205,6 +205,7 @@ Default layout, loads most of the pages
 			<block type="core/text_list" name="em_area49" translate="label"><label>EM Area 49</label></block>
             <block type="core/text_list" name="estilosasim" translate="label"><label>EstilosaSim</label></block>
             <block type="core/text_list" name="estilosasim_best" translate="label"><label>EstilosaSim Best</label></block>
+            <block type="core/text_list" name="teste_enquete" translate="label"><label>teste_enquete</label></block>
         </block>
 
         <block type="core/profiler" output="toHtml" name="core_profiler"/>
